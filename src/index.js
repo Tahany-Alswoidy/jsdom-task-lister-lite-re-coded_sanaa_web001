@@ -5,5 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let task = document.createElement("li");
     task.innerHTML=document.getElementById("new-task-description").value;
     document.getElementById("tasks").appendChild(task);
+    document.getElementById("new-task-description").value="";
   });
 });
