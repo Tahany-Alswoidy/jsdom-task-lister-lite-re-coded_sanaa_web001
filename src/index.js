@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("submit").addEventListener('click',function(e){
     e.preventDefault();
     let task = document.createElement("li");
-    task.innerHTML=document.getElementById().value;
+    task.innerHTML=document.getElementById("new-task-description").value;
   });
 });
